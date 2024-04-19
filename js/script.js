@@ -6,10 +6,10 @@ let discTicket;
 const mybtn = document.getElementById('addData');
 const mybtnDelete = document.getElementById('delete');
 
-// mybtnDelete.addEventListener('click', function () {
-//     document.getElementById('requestName').innerHTML = ' ';
-//     document.getElementById('km').innerHTML = ' ';
-// })
+mybtnDelete.addEventListener('click', function () {
+    document.getElementById('requestName').value = '';
+    document.getElementById('km').value = '';
+})
 
 
 mybtn.addEventListener('click', function () {
